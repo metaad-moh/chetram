@@ -14,7 +14,7 @@
     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
     (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init','1576662127553636');
+    fbq('init','1480351060719380');
     fbq('track','PageView');
   </script>
   <style>
@@ -328,7 +328,7 @@
   </main>
 
   <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1576662127553636&ev=PageView&noscript=1" alt="">
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1480351060719380&ev=PageView&noscript=1" alt="">
   </noscript>
 
   <script>
@@ -337,8 +337,7 @@
       telegramButton.addEventListener("click", function (e) {
         const targetUrl = this.href;
         if (typeof window.fbq === "function") {
-          window.fbq("track", "Contact", { content_name: "Telegram Channel" });
-        window.fbq("trackCustom", "TelegramJoinClick", { button_name: "Join Telegram" });
+          window.fbq("trackCustom", "TelegramJoinClick", { button_name: "Join Telegram" });
         }
         if (targetUrl && targetUrl !== "#") {
           e.preventDefault();
@@ -351,4 +350,3 @@
   </script>
 </body>
 </html>
-
