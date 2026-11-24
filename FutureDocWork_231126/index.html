@@ -261,7 +261,67 @@
     @media (prefers-reduced-motion: reduce) {
       .join-button { transition: none; }
     }
-</style>
+
+    /* Promotional Highlight Banners */
+    .promo-banner-1 {
+      width: 100%;
+      background: #fefea8;
+      border: 2px solid #1a369e;
+      border-radius: 18px;
+      padding: 6px 8px;
+      margin-bottom: 7px;
+      text-align: center;
+      line-height: 1.35;
+      font-size: 13px;
+      font-weight: 800;
+      color: #152c72;
+      box-shadow: 0 2px 6px rgba(26, 54, 158, 0.12);
+    }
+    .promo-banner-1 .red-highlight {
+      color: #d9110e;
+      font-weight: 900;
+    }
+    .promo-banner-1 .b1-line2 {
+      margin-top: 1px;
+      font-size: 12.5px;
+    }
+
+    .promo-banner-2 {
+      width: 100%;
+      background: #008a05;
+      background: linear-gradient(180deg, #029b08 0%, #008004 100%);
+      border-radius: 999px;
+      padding: 6px 10px;
+      margin-bottom: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 138, 5, 0.25);
+    }
+    .promo-banner-2 .speaker {
+      font-size: 20px;
+      line-height: 1;
+      flex: 0 0 auto;
+    }
+    .promo-banner-2 .speaker-right {
+      transform: scaleX(-1);
+      display: inline-block;
+    }
+    .promo-banner-2 .b2-content {
+      flex: 1;
+      padding: 0 4px;
+      font-size: 12px;
+      line-height: 1.3;
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .promo-banner-2 .yellow-highlight {
+      color: #fff200;
+      font-weight: 900;
+    }
+
+  </style>
 </head>
 <body>
   <main class="card">
@@ -276,6 +336,22 @@
       <p class="intro">
         अब अपने सभी <strong>Document Digitization Work</strong> को आसान, तेज़ और सुविधाजनक बनाएं। विश्वसनीय सेवा और समय पर कार्य।
       </p>
+
+      <!-- Promo Banners from Image 2 -->
+      <div class="promo-banner-1">
+        <div><span class="red-highlight">घर बैठे</span> काम शुरू करें और <span class="red-highlight">25000 से 30000 तक</span></div>
+        <div class="b1-line2">घर बैठे पैसे कमाएं | 100% Trusted Work है</div>
+      </div>
+
+      <div class="promo-banner-2">
+        <span class="speaker">📢</span>
+        <div class="b2-content">
+          <div>आज ही <span class="yellow-highlight">Join करें हमारा Telegram Channel</span></div>
+          <div>और <span class="yellow-highlight">Income Start करें</span></div>
+        </div>
+        <span class="speaker speaker-right">📢</span>
+      </div>
+
 
       <!-- Side-by-side Organized & Symmetrical 2-Column Grid -->
       <div class="info-grid">
@@ -350,4 +426,3 @@
   </script>
 </body>
 </html>
-
